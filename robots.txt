@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# 禁止抓取某些文件
+Disallow: /script.js
+Disallow: /style.css
+
+# Sitemap位置
+Sitemap: https://haoliunet.com/sitemap.xml
