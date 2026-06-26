@@ -1,4 +1,4 @@
-const CONTACT_API_URL = "https://haoliu-contact.2535958927.workers.dev/";
+const CONTACT_API_URL = "https://contact.haoliunet.top/";
 
 document.addEventListener("DOMContentLoaded", () => {
     const toggle = document.querySelector(".nav-toggle");
