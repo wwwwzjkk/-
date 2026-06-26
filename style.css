@@ -22,7 +22,7 @@ a { color: inherit; text-decoration: none; }
 .navbar.light .nav-toggle { background: #eef3ff; color: var(--ink); }
 .nav-wrapper { height: 82px; display: flex; align-items: center; justify-content: space-between; }
 .logo { display: inline-flex; align-items: center; gap: 12px; font-weight: 700; font-size: 18px; color: #fff; }
-.logo-mark { width: 48px; height: 48px; object-fit: contain; display: block; }
+.logo-mark { width: 105px; height: 105px; object-fit: contain; display: block; transform: translateY(8px); }
 .nav-menu { display: flex; align-items: center; gap: 30px; list-style: none; color: #fff; }
 .nav-menu a { position: relative; font-weight: 600; }
 .nav-menu a::after { content: ""; position: absolute; left: 0; bottom: -8px; width: 0; height: 3px; background: var(--brand-2); transition: width .25s ease; }
@@ -62,11 +62,11 @@ p { color: var(--muted); }
 .card:hover { transform: translateY(-8px); box-shadow: var(--shadow); }
 .card span { color: var(--hot); font-weight: 900; }
 .card h3 { margin: 10px 0; font-size: 22px; }
-.logo-marquee-container { display: grid; gap: 16px; }
-.logo-marquee { overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: #fff; padding: 20px 0; }
+.logo-marquee-container { display: grid; gap: 16px; width: 100vw; margin-left: calc(-50vw + 50%); }
+.logo-marquee { overflow: hidden; border: 1px solid var(--line); border-left: none; border-right: none; background: #fff; padding: 20px 0; }
 .logo-track { display: flex; align-items: center; gap: 44px; width: max-content; animation: marquee 30s linear infinite; }
 .logo-track-reverse { animation: marqueeReverse 30s linear infinite; }
-.logo-track img { width: 150px; height: 72px; object-fit: contain; filter: saturate(.92); }
+.logo-track img { width: 180px; height: 90px; object-fit: contain; filter: saturate(.92); }
 .cta-band { padding: 72px 0; color: #fff; background: linear-gradient(135deg, #13264f, #2157d8 55%, #22b8cf); text-align: center; }
 .cta-band h2 { margin-bottom: 20px; }
 .cta-band p { color: rgba(255,255,255,.82); margin-bottom: 20px; }
