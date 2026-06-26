@@ -238,7 +238,7 @@ assets/ppt/slide-16-image-02.png 593x269
 assets/ppt/slide-16-image-03.png 583x286
 assets/ppt/slide-16-image-04.png 1284x2778
 assets/ppt/slide-16-image-05.png 1070x526
-assets/ppt/slide-16-image-06.png 760x480
+assets/ppt/slide-21-image-01.jpg 760x480
 
 Slide 17
 TEXT:
@@ -288,7 +288,7 @@ assets/ppt/slide-18-image-04.jpg 1179x2556
 assets/ppt/slide-18-image-05.jpg 1179x2556
 assets/ppt/slide-18-image-06.jpg 1057x461
 assets/ppt/slide-18-image-07.jpg 1122x449
-assets/ppt/slide-18-image-08.png 1374x600
+assets/ppt/slide-21-image-01.jpg 1374x600
 assets/ppt/slide-18-image-09.png 1284x2778
 assets/ppt/slide-18-image-10.png 145x110
 
@@ -345,7 +345,7 @@ TEXT:
 专业的内容与运营有效提升了品牌在抖音平台的知名度与用户好感度。
 Business case
 IMAGES:
-assets/ppt/slide-20-image-01.png 1908x930
+assets/ppt/slide-21-image-01.jpg 1908x930
 
 Slide 21
 TEXT:
