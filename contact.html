@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
@@ -42,10 +42,10 @@
                 <p>服务方向：巨量千川、巨量 AD、星图任务、KOC 达人营销、直播间代运营。</p>
             </div>
             <form id="contactForm" class="contact-form reveal delay-1">
-                <label>姓名<input required type="text" placeholder="请输入姓名"></label>
-                <label>公司<input type="text" placeholder="请输入公司名称"></label>
-                <label>电话<input required type="tel" placeholder="请输入联系电话"></label>
-                <label>需求<textarea required rows="5" placeholder="简单说说你的品牌、类目、预算或当前问题"></textarea></label>
+                <label>姓名<input name="name" required type="text" autocomplete="name" placeholder="请输入姓名"></label>
+                <label>公司<input name="company" type="text" autocomplete="organization" placeholder="请输入公司名称"></label>
+                <label>电话<input name="phone" required type="tel" autocomplete="tel" placeholder="请输入联系电话"></label>
+                <label>需求<textarea name="message" required rows="5" placeholder="简单说说你的品牌、类目、预算或当前问题"></textarea></label>
                 <button class="btn primary" type="submit">提交咨询</button>
             </form>
         </div>
