@@ -1,4 +1,4 @@
-:root {
+﻿:root {
     --ink: #172033;
     --muted: #667085;
     --line: #e6e9ef;
@@ -93,6 +93,7 @@ p { color: var(--muted); }
 .case-row img { width: 100%; max-height: 420px; object-fit: contain; background: #f0f3fa; }
 .case-media { display: grid; gap: 18px; }
 .case-media img { width: 100%; max-height: none; border-radius: 8px; background: #f0f3fa; object-fit: contain; }
+.case-image-large { width: min(620px, 100%); justify-self: end; }
 .case-media-stack { grid-template-columns: 1fr; align-items: center; }
 .contact-layout { display: grid; grid-template-columns: .9fr 1.1fr; gap: 32px; align-items: start; }
 .contact-card, .contact-form { padding: 32px; border-radius: 8px; border: 1px solid var(--line); box-shadow: var(--shadow); background: #fff; }
@@ -134,4 +135,25 @@ p { color: var(--muted); }
 .scope-detail-list li::before { content: "•"; margin-right: 6px; color: var(--brand-2); font-weight: 900; }
 @media (max-width: 900px) {
     .scope-cards .card { min-height: auto; }
+}
+.service-scope-first { padding-top: 76px; }
+.operation-methods-section { background: #fff; padding-top: 64px; padding-bottom: 64px; }
+.operation-method-layout { width: min(980px, 100%); margin: 0 auto; display: grid; grid-template-columns: 1fr; gap: 24px; align-items: stretch; }
+.operation-method-card { display: grid; grid-template-rows: auto 1fr; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: #fff; box-shadow: 0 12px 32px rgba(20,30,55,.08); }
+.operation-method-card > img { width: 100%; max-height: 360px; aspect-ratio: 16 / 8; object-fit: cover; background: #f0f3fa; }
+.operation-method-card > div:not(.stage-strip) { padding: 24px 28px; }
+.operation-method-card h3 { margin: 8px 0 14px; color: var(--ink); font-size: clamp(28px, 3vw, 42px); line-height: 1.18; }
+.operation-method-card p:not(.eyebrow) { font-size: 17px; line-height: 1.9; }
+.stage-strip { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; padding: 12px 18px 20px; align-items: center; justify-items: center; }
+.stage-strip img { width: 100%; max-width: 270px; height: auto; border-radius: 8px; box-shadow: 0 8px 20px rgba(20,30,55,.10); background: #f0f3fa; object-fit: contain; object-position: top center; }
+@media (max-width: 900px) {
+    .operation-method-layout, .stage-strip { grid-template-columns: 1fr; }
+    .operation-method-card > div:not(.stage-strip) { padding: 24px; }
+}
+
+.restaurant-case.case-row.reverse { grid-template-columns: .75fr 1.25fr; }
+.restaurant-case .case-media { justify-items: stretch; }
+.restaurant-case .case-image-large { width: 100%; max-width: none; justify-self: stretch; }
+@media (max-width: 900px) {
+    .restaurant-case.case-row.reverse { grid-template-columns: 1fr; }
 }
